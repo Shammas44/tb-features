@@ -1,0 +1,120 @@
+﻿Nom;Description;Note;Source;Simplicité d'implémentation;Utilisateurs;Utilité;Fréquence d'utilisation;commentaire;Pertinent;TB;Obligatoire;Disponible pour
+Annuaire de contact des collaborateurs;"Recherche par nom
+N° tél., Nom, prénom, ID et n° Orif";;;6;"ede
+dc + da
+edg";5;5;;oui;oui;;
+KPI recettes;"Chiffre d’affaires de production
+Budget réel
+Restaurant: production
+Restaurant: ratio pour le pilotage";La production des restaurants, à mettre en lien avec les frais de matières premières (full cost). Environ 40 % pour chaque section;;3;dc + da;5;5;;oui;oui;dc + da;
+KPI recettes AI;"Recettes par site, jusqu’au zoom au niveau de l’atelier
+Taux de remplissage
+Taux d’interruption
+Arrivées-Départs par sites
+Mandats
+Répartition";;;4;dc + da;5;5;;oui;oui;dc + da;
+KPI mesures AFP;"Répartition par produit
+Apprentis qui sont en centre, en stage, en formation en entreprise
+Reprises de contrat pour voir si on est dans le tir par rapport aux OAI";Ces indicateurs sont nécessaires pour l’analyse d’un décalage et il faut pouvoir descendre au niveau Section;;5;dc + da;4;3.5;;oui;oui;dc + da;
+Procédure de crise;;;;6;dc + da;4;1;;oui;;;
+KPI gestion stratégique ;"Monitoring (Jedox)
+Taux d’occupation (bénéficiaire)
+Nombre de bénéficiaires par site
+Projection de l’évolution de ces KPI dans le temps sur 6 mois";;Jedox;3;dc + da;4;3;;oui;oui;dc + da;
+Commande de matériel;Commandes de matériel de bureau;;SIGEM;3;dc + da;2;2;raccourcis ver la commande de matériel;non;;;
+Tickets SIS en cours;;;;5;dc + da;2;2;raccourcis vers les tickets;oui;;;
+Liste des factures en attente de validation ;Pour les 7 derniers jours;;AIRS;4;dc + da;4;5;;oui;oui;;
+Saisir des pièces de caisses;Avec leur CDA ;;ProConcept;3.5;dc + da;3.5;3;CDA: identifiant à 3 chiffres dans Proconcept pour la comptabilité analytique, permet d’identifier les sections, produits (exemple: formation, repas, hébergements,  soutiens particuliers, etc.);non;;;
+Extractions financières personnalisées;Via un lien personnalisé;;AIRS;3.5;dc + da;3.5;4;;non;;;
+Lien direct sur les documents;Liés à une personne et à un site;;AIRS;4;dc + da;4.5;5.5;;non;;;
+Raccourcis;"DC + DA: Vers OrifIntra
+MSP: SIGEM, AIRS, Outlook, Kelio directement vers le badgeage
+MSP: Liens personnalisables
+EDG:  référentiel, Orif intra page d'accueil,  Kelio";;-;6;"dc + da
+msp";2.5;6;;oui;oui;;
+Informations comptables;Liste des CDA, n° du compte;MSP: besoin juste des CDA;;4.5;"dc + da
+msp";4.5;6;;oui;oui;;
+Météo;;;internet;4;ede;2.5;4;;oui;;;
+Logicar;Voir les voitures disponibles;;Outlook;2.5;ede;2;2.5;;oui;;;
+Circulation;;;internet;2.5;ede;3;5;;oui;;;
+Calendrier Outlook;"Voir son propre calendrier 
+Voir les autres calendriers";;Outlook;3;ede;3;6;;non;;;
+News Orif;"Filtrés d'après le public cible 
+Date de début et de fin
+EDG:  catégoriser et filtrer les news
+EDG: les sites ne voient que les news qui les intéresse.
+EDG:  Garder la possibilité de consulter les news des autres sites.";"La date de fin permet de faire disparaître une news
+";MonOrif;5;"ede
+rs
+edg";3;3.5;;oui;oui;"dc + da
+msp
+rs
+rsa
+ede
+edg";
+Heures de travail;;;Kelio;6;ede;3;3;;non;;;
+Todoliste personnelle;Connecté à un outil type (Trello);;;4;ede;3;5.5;;oui;;;
+Hébergement bénéficiaire;"Référents internes
+Conseillers AI
+Autres mandants";;;5;ede;3;4;;non;;;
+Effectifs de section;"Effectifs dans les sections + GTP réelle
+Arrivées/départ
+Échéances rapport/mesure";Sera disponible dans un autre module;Kelio,SAI;3;ede;4;5;"GTP = Gestion des temps de présence
+Calendrier dans SAI";oui;;;
+Racourcis application desktop;;;;4;ede;2;4;;non;;;
+Suivis des stages pour les bénéficiaires;Alertes quotas de stage atteint pour le bénéficiaire;;;4;rsa;2;3;;non;;;
+Réservation salles;Consulter salles disponibles;;;3.5;rs;3;2.5;;oui;;;
+Réservation voitures;;;;3;rs;3;2.5;;oui;;;
+Journal de bord du bénéficiaire;"Pour la semaine avec les évènements en cours
+Aperçu des derniers évènements (la nuit et la journée précédentes)
+Saisir directement des évènements dans le Journal de bord SAI
+Recherche par bénéficiaire";Le planning bénéficiaire permet  d'éviter d’effectuer des vérifications. ;SAI;3.5;"rs
+msp";4;4.5;planning =  GTP = agenda;oui;oui;"msp
+rs";
+Recherche un bénéficiaire;"Hébergement
+Présence/absences
+Visualisation des objectifs (planifié en synthèse)";;;4.5;rs;4;4.5;;oui;non;;
+Messagerie instantanée;Pour les collaborateurs en binômes asynchrones;;;5;rs;3.5;5;;oui;;;
+Tâches ménagères ;Checklist;;;5;rs;3;6;;non;;;
+Comptabilisation de quittance;;;;4.5;rs;3;4;;non;;;
+Documents favoris;"MSP: Feuiles de caisses et Feuilles de fonctions
+DC + DA: Mes documents MonOrif
+EDG: Liste qui permette de rediriger vers le document sélectionné
+EDG: Les documents doivent être triés en fonction des besoins utilisateurs
+EDG: Date de dernière modification du document
+EDG: Pastille de couleur pour savoir s’il a été récemment modifié
+EDG: Lien vers les PV, Ordre du jour, document de travail, etc. ";;MonOrif,OrifIntra;4;"rs
+msp
+dc + da
+edg";3;4;;oui;oui;;
+Menu de la cafeteria;;;;6;msp;3;5;;non;;;
+Présence bénéficiaire;Absconses  - cours - formation;;;3.5;msp;4;5;;oui;oui;msp;
+Planning des bénéficiaires;Opérations CRUD;;SAI;3.5;msp;4;5;;non;;;
+Post-it personnel;;;;5;msp;3;5.5;;oui;oui;;
+Objectifs;"PRP
+Lié à la formation (CFC, AFP)
+Lié au mandat";;;5;msp;4;5;;non;;;
+Annuaire des entreprises;;;internet;4;msp;4;3.5;;oui;;;
+Places de stages disponibles;;;internet;4;msp;3;2;;oui;;;
+KPI suivi financier de l’atelier;;;;4;msp;4;4.5;;oui;oui;msp;
+Réservation + banquets;Hebdomadaire + journalier;;;4.5;msp;4;5;;non;;;
+Suivis des mouvements;"Arrivées, départs
+Liste des chambres libres/pas libres";;;4;rsa;5;5;;oui;;;
+Calendrier des collaborateurs;;;;2.5;rsa;3;4;;non;;;
+Liste des collaborateurs absents du site;"absents ou non
+date d'anniversaire";;;6;"rsa
+edg";3;4;;oui;;;
+Recherche dans SAI;Recherche par catégories ;;SAI;1.5;rsa;4;6;;non;;;
+Suivis des bénéficiaires planifiés;;;;5;rsa;3;5;;non;;;
+Planning GTP + agenda du Bénéficiaire ;Alerte si deux ou plusieurs évènements se chevauchent;;;4;rsa;4;4.5;;non;;;
+Recherche : Dans l'ensemble des applications Orif;Avec filtres avancés;;;1;edg;4;5;;non;;;
+Nombre de factures à valider ;Code couleur pour différencier les factures échues.;;AIRS, SIGEM;6;edg;5;3;;oui;;;
+Guichets virtuels ;"Commande de matériel, digitalisation des formulaires, création de compte etc.
+Centralisation des différent guichets dans neOs.";;;3;edg;3;3;;oui;;;
+Compteur de mails non lus ;Sous forme d'une pastille de couleur avec un nombre;Certaines personnes ne sont pas favorables à cette fonctionnalité. Cependant, cela permettrait aux personnes qui ne consultent que rarement leurs e-mails d'être notifiées de l'existence de mails non lus.;;6;edg;3.5;6;;oui;;;
+Nombre de demandes à valider sur Kelio ;Sous forme de pastille de couleur avec un nombre;;;6;edg;3.5;4.5;;oui;;;
+Gestion de projet ;Lien filtré vers les projets qui concerne le membre de la direction générale;;;5;edg;4;4;;oui;;;
+KPI EDG;"Taux d'occupation des sites
+Lien vers un rapport mensuel des indicateurs
+KPI RH
+KPI finance";;;3;edg;5.5;3;;oui;;;

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>fonctionnalités_interface_neOs</title>
+  <script defer type="module" src="index.js"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <table>
+    <thead>
+      <tr>
+        <td>
+          <div class="header">
+            <header> </header>
+          </div>
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <div class="content">
+            <div id="wrapper">
+            </div>
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <template id="job__template">
+    <div class="job">
+      <h2 class="job__title">Short Name</h2>
+      <p class="job__description">Full Name</p>
+    </div>
+  </template>
+
+  <template id="card__template">
+    <li class="card">
+      <div class="card__content">
+        <h2 class="card__title">Title #1</h2>
+        <div class="card__content--extra">
+          <ul class="card__description"></ul>
+          <p class="card__note"></p>
+        </div>
+        <div class="card__extra">
+          <div class="score--block card__position">10</div>
+          <p class="card__score">
+            <span>🤔</span>
+            <span class="score score--complexity">
+              <svg>
+                <text width="100%" height="100%" x="50%" y="50%" dominant-baseline="central" text-anchor="middle"
+                  fill="white">1</text>
+              </svg>
+            </span>
+          </p>
+          <p class="card__score">
+            <span>👤</span>
+            <span class="score score--users">
+              <svg>
+                <text width="100%" height="100%" x="50%" y="50%" dominant-baseline="central" text-anchor="middle"
+                  fill="white">1</text>
+              </svg>
+            </span>
+          </p>
+          <p class="card__score">
+            <span>🔨</span>
+            <span class="score score--usefull">
+              <svg>
+                <text width="100%" height="100%" x="50%" y="50%" dominant-baseline="central" text-anchor="middle"
+                  fill="white">1</text>
+              </svg>
+            </span>
+          </p>
+          <p class="card__score">
+            <span>⏰</span>
+            <span class="score score--frequency">
+              <svg>
+                <text width="100%" height="100%" x="50%" y="50%" dominant-baseline="central" text-anchor="middle"
+                  fill="white">1</text>
+              </svg>
+            </span>
+          </p>
+          <div class="score--block card__percentage">80%</div>
+        </div>
+      </div>
+    </li>
+  </template>
+
+  <div class="controls">
+    <label>
+      <p class="controls__value controls__value-items-nbr">11</p>
+      <input class="styled-slider slider--items-nbr" type="range" min="1" max="11">
+    </label>
+    <label>
+      <button type="menu" class="controls__selected controls__selected--green"></button>
+    </label>
+    <label>
+      <button type="menu" class="controls__selected controls__selected--more">+</button>
+    </label>
+    <label>
+      <button type="menu" class="controls__selected controls__selected--both"></button>
+    </label>
+    <label>
+      <p class="controls__value controls__value-font-size">16px</p>
+      <input class="styled-slider slider--font-size" type="range" min="5" max="16" value="16">
+    </label>
+  </div>
+
+  <div class="legend__wrapper">
+
+    <div class="legend">
+      <h2>Légendes</h2>
+      <div class="legend__content">
+        <div>
+          <p class="legend__item">
+            <span class="score--block">x</span><span>Classement sur <span class="number"></span></span>
+          </p>
+          <p class="legend__item ">
+            <span>🤔</span><span class="factor--complexity">Facilité d'implémentation sur <span
+                class="number">6</span></span>
+          </p>
+          <p class="legend__item">
+            <span>👤</span><span class="factor--users">Nombre de groupes utilisateurs sur <span
+                class="number">6</span></span>
+          </p>
+          <p class="legend__item">
+            <span>🔨</span><span class="factor--usefull">Utilité sur <span class="number">6</span></span>
+          </p>
+          <p class="legend__item">
+            <span>⏰</span><span class="factor--frequency">Fréquence d'utilisation sur <span
+                class="number">6</span></span>
+          </p>
+        </div>
+        <div>
+          <p class="legend__item">
+            <span class="score--block">x%</span><span>Score de la fonctionnalité sur <span
+                class="number">100%</span></span>
+          </p>
+          <p class="legend__item">
+            <span class="score--block legend__item--selected"></span><span>Fonctionnalité prioritaire</span></span>
+          </p>
+          <p class="legend__item">
+            <span class="score--block legend__item--not-relevant"></span><span>Fonctionnalité non
+              pertinente</span></span>
+          </p>
+          <p class="legend__item">
+            <span class="score--block legend__item--relevant"></span><span>Fonctionnalité secondaire</span></span>
+          </p>
+          <p class="legend__item">
+            <span>🔒</span><span class="factor--complexity">Fonctionnalité obligatoire pour l'utilisateur</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
